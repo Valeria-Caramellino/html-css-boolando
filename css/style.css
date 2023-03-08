@@ -10,11 +10,23 @@
 .w100 {width: 100%;}
 .h100 {height: 80px;}
 
+.relative{position: relative;}
+.absolut {position: absolute;}
+.fixed  {position: fixed;}
+
+.box{
+    width: 350px;
+    height: 510px;
+}
+
 .whiteFont{
     color: white;
 }
 .Flex{
     display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
 }
 /*header*/
 header{
@@ -27,4 +39,15 @@ header{
     align-items: center;
     justify-content:space-around;
 }
-/*body*/
+/*main*/
+.container{
+    margin: 20px;
+}
+.imgSecondaria{
+    opacity: 0;
+}
+.Fmain{
+    align-items: center;
+    justify-content:center;
+}
+
