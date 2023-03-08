@@ -41,7 +41,8 @@ header{
 }
 /*main*/
 .container{
-    margin: 20px;
+    margin:20px 20px
+    0px 20px;
 }
 .imgSecondaria{
     opacity: 0;
@@ -50,4 +51,54 @@ header{
     align-items: center;
     justify-content:center;
 }
-
+.PSectionBottom{
+    margin-left: 20px;
+}
+.cuore{
+    position: absolute;
+    right: 0;
+    top: 2px;
+    padding: 10px;
+    background-color: white;
+}
+.cuore:hover{
+    color: red;
+}
+.sconto{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+.sostenibilità{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+.small{font-size: 12px;}
+.bold{font-weight: bolder;}
+.prezzo{color: red;}
+span.prezzoScontato{
+    color: black;
+    text-decoration: line-through;
+}
+.sostenibilitàUltima{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+section:hover .imgSecondaria{
+    opacity: 1;
+}
+section:hover .imgPrincipale{
+    opacity: 0;
+}
+/*footer*/
