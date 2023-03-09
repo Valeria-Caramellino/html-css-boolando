@@ -122,14 +122,17 @@ footer{
 .margin{
     margin: 0 auto;
 }
-div.icons i{
+/*div.icons i{
     background-color: white;
     width: 20px;
     height: 20px;
-}
+}*/
 .stickyFooter{
     position: sticky;
     bottom: 0;
     width: 100%;
     z-index: 1;
+}
+span{
+    padding-right: 5px;
 }
