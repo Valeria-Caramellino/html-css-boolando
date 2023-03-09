@@ -21,6 +21,7 @@
     width: 100%;
     z-index: 1;
 }
+body{font-family: Arial, Helvetica, sans-serif;}
 
 .box{
     width: 350px;
@@ -47,6 +48,10 @@ header{
 .navBar{
     align-items: center;
     justify-content:space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 /*main*/
 .container{
@@ -122,11 +127,6 @@ footer{
 .margin{
     margin: 0 auto;
 }
-/*div.icons i{
-    background-color: white;
-    width: 20px;
-    height: 20px;
-}*/
 .stickyFooter{
     position: sticky;
     bottom: 0;
@@ -136,3 +136,15 @@ footer{
 span{
     padding-right: 5px;
 }
+/*SOLUZIONE CON IL FIXED*/
+/*
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0px;
+}
+body{
+    margin-top: 100px
+}
+*/
